@@ -10,13 +10,9 @@ metaDescription: 2.1.2
 
 Here's what's coming in this version update:
 
-
-
 ## Payments
 
 * The **Credit Card Transaction Query** report is now available—previously titled as “OSC Query”.
-
-![](/assets/Screen Shot 2020-04-29 at 2.37.32 PM.png)
 
 ## Billing
 
