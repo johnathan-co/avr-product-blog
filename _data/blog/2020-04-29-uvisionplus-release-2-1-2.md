@@ -4,6 +4,7 @@ path: /uVP-2.1.2
 date: 2020-04-24T14:00:00.000Z
 title: 'uVisionPLUS: Release 2.1.2'
 thumbnail: /assets/New Project.png
+metaDescription: test Meta Description
 ---
 # What's New?
 
