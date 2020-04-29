@@ -212,9 +212,9 @@ a {
 .grids {
   display: grid;
   grid-template-columns: 
-      [viewport-start] minmax(1em, 1fr)
+      [viewport-start] minmax(1fr)
       [container-start] minmax(0, 30em) [container-end]
-      minmax(1em, 1fr) [viewport-end];
+      minmax(1fr) [viewport-end];
 
   // display: grid;
   // grid-template-columns: 1fr;
