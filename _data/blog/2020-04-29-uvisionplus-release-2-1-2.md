@@ -3,7 +3,7 @@ template: BlogPost
 path: /uVP-2.1.2
 date: 2020-04-24T14:00:00.000Z
 title: 'uVisionPLUS: Release 2.1.2'
-thumbnail: /assets/AVR LOGOr.jpg
+thumbnail: /assets/chester-wade-0AlE0lFaKF8-unsplash.jpg
 metaDescription: test Meta Description
 ---
 # What's New?
