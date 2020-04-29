@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; <script>document.write(new Date().getFullYear())</script> AVR, Inc. All rights reserved.</p>
+        <p>&copy; {(new Date().getFullYear())} AVR, Inc. All rights reserved.</p>
       </footer>
     </div>
   )
