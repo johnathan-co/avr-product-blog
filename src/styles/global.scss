@@ -11,7 +11,7 @@ body {
 body.light {
   --primary-color: #23abff;
   --primary-text-color: #fff;
-  --featured-bg: #2b91e9;
+  --featured-bg: #fff;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -31,7 +31,7 @@ body.light {
 body.dark {
   --primary-color: #23abff;
   --primary-text-color: #fff;
-  --featured-bg: #2b91e9;
+  --featured-bg: rgb(23, 23, 24);
   --featured-text: #fff;
   --secondary-color: #2b91e9;
   --background: rgb(23, 23, 24);
@@ -177,7 +177,7 @@ a {
 .post-thumbnail {
   text-align: center;
   min-height: 380px;
-  //background-image: url('/assets/circles-light.png');
+  //background-image: url('/static/assets/AVR LOGOr.jpg');
   background-color: var(--featured-bg);
   background-repeat: no-repeat;
   background-size: cover;
