@@ -3,7 +3,7 @@ template: BlogPost
 path: /uVP-2.1.2
 date: 2020-04-29T04:56:08.201Z
 title: 'uVisionPLUS: Release 2.1.2'
-thumbnail: /assets/AVR LOGO.webp
+thumbnail: /assets/AVR LOGOr.png
 ---
 Version 2.1.2 is now live, and below are some details of what's included. 
 
