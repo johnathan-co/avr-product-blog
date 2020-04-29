@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: W3Layouts/gatsby-starter-delog
+  repo: johnathan-co/avr-product-blog
 media_folder: static/assets
 public_folder: /assets
 collections:
