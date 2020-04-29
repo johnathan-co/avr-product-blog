@@ -9,9 +9,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #23abff;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #2b91e9;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -29,17 +29,17 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #23abff;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #2b91e9;
   --featured-text: #fff;
-  --secondary-color: #66578d;
-  --background: #0A041A;
+  --secondary-color: #2b91e9;
+  --background: rgb(23, 23, 24);
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #181326;
-  --card-bdr: #181326;
+  --card-bg: #373737;
+  --card-bdr: #373737;
   --card-shadow: #020204;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
@@ -107,8 +107,9 @@ a {
   text-transform: uppercase;
 }
 .hero-header {
-  padding: 0 0 64px;
-  max-width: 980px;
+   padding: 0 0 64px;
+  // max-width: 980px;
+  text-align: center;
 }
 .headline {
   font-size: 36px;
@@ -210,18 +211,27 @@ a {
 }
 .grids {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 32px;
+  grid-template-columns: 
+      [viewport-start] minmax(1em, 1fr)
+      [container-start] minmax(0, 30em) [container-end]
+      minmax(1em, 1fr) [viewport-end];
+
+  // display: grid;
+  // grid-template-columns: 1fr;
+  grid-gap: 32px ;
   margin-top: 32px;
 }
 .card {
-  display: grid;
-  background-color: var(--card-bg);
-  border-radius: 9px;
-  border: 1px solid var(--card-bdr);
-  box-shadow: 0 0 30px var(--card-shadow);
-  overflow: hidden;
-  line-height: 1.5;
+   grid-column: viewport;
+   grid-template-columns: inherit;
+   align-items: center;
+   display: grid;
+   background-color: var(--card-bg);
+   border-radius: 9px;
+   border: 1px solid var(--card-bdr);
+   box-shadow: 0 0 30px var(--card-shadow);
+   overflow: hidden;
+   line-height: 1.5;
   &:hover .post-link {
     color: var(--primary-color);
   }
