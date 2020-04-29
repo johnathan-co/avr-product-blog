@@ -220,6 +220,7 @@ a {
   // grid-template-columns: 1fr;
   grid-gap: 32px ;
   margin-top: 32px;
+  margin-right: 32px;
 }
 .card {
    grid-column: viewport;
@@ -317,7 +318,7 @@ and (min-width: 768px) {
 @media only screen 
   and (min-width: 1024px) {
   .grids {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .two-grids {
     display: grid;
